@@ -1,0 +1,40 @@
+.homeHeaderContainer {
+    min-height: 100px;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    max-width: 1152px;
+}
+
+.homeContentContainer {
+  min-height: 700px;
+  padding-top: 80px;
+  max-width: 1152px;
+  margin: auto;
+}
+
+.homeLayout {
+    background: blue;
+    font-weight: 400 !important;
+    letter-spacing: -0.3px;
+    max-width: 100%;
+  }
+.homeHeader {
+  background:white;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.logoHome {
+  max-height: 7rem;
+  float: left;
+  max-width: 80%;
+}

@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
+import{motion} from 'framer-motion';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <motion.div className="App" animate={{ x: 100 }}
+    transition={{ease: "easeOut" ,duration: 2 }}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </motion.div>
   );
 }
 
